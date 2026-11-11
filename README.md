@@ -2,7 +2,7 @@
 
 Laboratório de pensamento computacional — Mestrado em TIC em Educação, ESE-UNIPVC.
 
-Aplicação estática com 40 cartas e construção manual de árvores de decisão. Inclui a dinâmica Quem sou eu, chaves de partilha de cartas e exportação/importação do trabalho. Não necessita de API, base de dados ou serviços ChatGPT.
+Aplicação estática com 14 cartas iniciais, 14 variantes dos mesmos animais e construção manual de árvores de decisão. Inclui a dinâmica Quem sou eu, chaves de partilha de cartas e exportação/importação do trabalho. Não necessita de API, base de dados ou serviços ChatGPT.
 
 ## Publicar em GitHub Pages
 
@@ -38,3 +38,15 @@ Conceção e orientação pedagógica: Pedro Miguel Moreira.
 Desenvolvimento com apoio do ChatGPT (OpenAI).
 O logótipo institucional mantém a sua identificação. Não foi adicionada uma licença de redistribuição ao projeto.
 # lab01-decision
+
+## Várias equipas em jogo
+
+No painel do guardião, associar manualmente o nome de cada equipa à chave recebida. Podem consultar-se até 20 cartas de equipas em simultâneo. Repetir o mesmo nome com uma chave nova substitui a carta dessa equipa. Cada equipa pode ser retirada individualmente. Os nomes não fazem parte da chave. As cartas recebidas mantêm-se neste navegador, mas são excluídas de Guardar trabalho para evitar revelar cartas ao partilhar o ficheiro.
+
+As novas chaves têm 5 caracteres, sem hífenes, e não incluem o nome da equipa. São uma ocultação da carta, com verificação limitada de erros, e não encriptação com segredo. As chaves antigas continuam a ser aceites para as cartas que fazem parte desta edição.
+
+## Objetivos e reflexão
+
+A identificação procura o animal, independentemente da representação. O percurso inclui a construção e o teste com 14 animais, um segundo teste com uma variante por animal e a revisão das regras. As variantes exploram diferenças de cor, tamanho na imagem, fundo, orientação e estilo de ilustração. As reflexões devem indicar carta, versão da árvore, percurso e resultado, justificando as revisões com evidências.
+
+Os trabalhos construídos com o baralho anterior podem ser consultados na versão anterior do laboratório. O novo baralho inicia uma árvore com as 14 cartas iniciais.
